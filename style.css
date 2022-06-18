@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 2;
+}
+body {
+  background-color: #f2f2f2;
+  width: min(55%, 70.5rem);
+  margin-inline: auto;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #e28525; font-size: 20px; margin-left: 2rem;
+}
+
+.nav-link:hover {
+  color: #016972;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #e28525;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 13%;
+}
+
+.flex-section {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+section h1 {
+  font-family: "Big Shoulders Display", cursive;
+}
+.title,
+.content {
+  padding: 1rem 0;
+}
+.title {
+  font-size: 40px;
+}
+.sedans {
+  background-color: #e28525;
+}
+.suvs {
+  background-color: #016972;
+}
+.luxury {
+  background-color: #00403f;
+}
+h1,
+button {
+  color: hsl(0, 0%, 95%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.btn {
+  border-radius: 35px;
+  border: none;
+  padding: 0.5rem 2.5rem;
+  margin: 4rem 0 1rem 0;
+  cursor: pointer;
+}
+.btn:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  background-color: transparent;
+}
+.btn:hover a {
+  color: hsl(0, 0%, 95%);
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+.sedans-link {
+  color: #e28525;
+}
+.suvs-link {
+  color: #016972;
+}
+.luxury-link {
+  color: #00403f;
+}
